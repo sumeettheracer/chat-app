@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #1e71ff;
+    justify-content: space-around;
+    padding-left: 60PX;
+    padding-right: 60PX;;
+}
+.brand-icon{
+    margin-top: 15px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link div {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: rgba(255, 255, 255, 0.0) solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: ease-out 0.3s;
+}
+
+.div a {
+    color: white;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.div:hover {
+    border-color: white;
+}
+
+.hero-section {
+    background-color: #1e71ff;
+    display: block;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.left-block {
+    display: block;
+}
+
+.left-block h1 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90px;
+}
+
+.left-block p {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.left-block button {
+    margin-top: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.left-block button a {
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+
+.right-block img {
+    max-width: 550px;
+    max-height: 600px;
+}
